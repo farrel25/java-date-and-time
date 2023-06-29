@@ -22,7 +22,7 @@ public class CalendarTest {
         System.out.println(calendar);
 
         calendar.set(Calendar.YEAR, 2000);
-        calendar.set(Calendar.MONTH, Calendar.MAY);
+        calendar.set(Calendar.MONTH, Calendar.MAY); // index bulan di Calendar dimulai dari 0
         calendar.set(Calendar.DAY_OF_MONTH, 10);
         calendar.set(Calendar.HOUR_OF_DAY, 15);
         calendar.set(Calendar.MINUTE, 50);
